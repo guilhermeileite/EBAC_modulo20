@@ -9,6 +9,7 @@ function Indices(array) {
     function itemDuplicado(array) {
         return (new Set(array)).size !== array.length;
     }
+    module.exports = { Indices, itemDuplicado }
     // Armazena e inicializa o maior e o menor índice
     let IndiceMaior = 0;
     let IndiceMenor = 0;

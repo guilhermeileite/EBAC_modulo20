@@ -11,6 +11,7 @@ function somaMultiplos() {
     }
     return soma;
 }
+module.exports = { somaMultiplos }
 //Executando o código
 const somaFinal = somaMultiplos();
 console.log(somaFinal);
